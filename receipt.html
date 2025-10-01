@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Receipt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Receipt</h2>
+  <div id="receiptContainer">Loading...</div>
+
+  <script src="script.js"></script>
+  <script>
+    // Get ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get("id");
+    loadReceipt(id);
+  </script>
+</body>
+</html>
