@@ -1,5 +1,4 @@
-const API_BASE = process.env.API_BASE;
- // Change to your backend URL
+const API_BASE = "https://backendlinkforfrontend.onrender.com/api"; // Change to your backend URL
 
 // Handle form submission
 const form = document.getElementById("userForm");
